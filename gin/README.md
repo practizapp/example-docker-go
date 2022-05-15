@@ -1,4 +1,4 @@
-# init Projeck
+# init Project
 mkdir project-name & cd to directory project
 go mod init project-name
 
