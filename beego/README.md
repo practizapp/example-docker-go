@@ -1,19 +1,33 @@
-# init Project
-mkdir project-name & cd to directory project
-go mod init project-name
+## How to Usage
 
-# install BeeGo framework
+` Refer to your Linux distribution documentation for how to install Go `
 
-go get -u github.com/beego/beego
+## How to init Project
+```
+$ mkdir project-name & cd to directory project
+$ go mod init project-name
+```
 
-# mkdir src (Source Code Directory)
-create main.go <simple Application>
+## install BeeGo framework
 
-# Import on Your Code
-import "github.com/beego/beego"
+```
+$ go get -u github.com/beego/beego
+```
 
-# Running Docker compose
-docker-compose up -d
+## mkdir src (Source Code Directory)
+```
+$ create main.go <simple Application>
+```
 
-# Open Your Browser
-localhost:8080 
+## Import on Your Code
+```
+$ import "github.com/beego/beego"
+```
+
+## Running Docker compose
+```
+$ docker-compose up -d
+```
+
+## Open Your Browser
+http://localhost:8080 
